@@ -1,0 +1,153 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container to limit content width */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    max-width: 1200px;
+}
+
+/* Header styling */
+header {
+    background-color: #10aabc;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color:  #3a6bff;
+}
+
+/* Section Styling */
+section {
+    margin: 50px 0;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #1f1f2e;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+    text-align: center;
+}
+
+a {
+    color: #1f1f2e;
+    text-decoration: none;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.project h3 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #3aa0ff;
+    color: #100101;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #3a6bff;
+    transform: translateY(-3px);
+}
+
+/* Contact Section */
+#contact a {
+    color: #100101;
+    text-decoration: none;
+
+}
+
+#contact a:hover {
+    color:  #3a6bff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1f1f2e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Smooth Scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
